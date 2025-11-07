@@ -6,6 +6,6 @@ avanca.porEach(button => {
         const proximoPasso = 'passo-' + this.getAttribute('data-proxima');
 
         atual.classList.remove('ativo');
-        document.getElemen
-        })
- })
+        document.getElementById(proximoPasso).classList.add('ativo');
+    })
+})
